@@ -1,0 +1,37 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-pri{
+    border-radius: 5px;
+background: #FD6E0A;
+color: white;
+font-style: normal;
+font-weight: 700;
+padding: 15px 35px;
+border: 0px;
+}
+nav{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.t{
+    color:  #181818;
+font-size: 45px;
+font-weight: 800;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav,li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav,a{
+    text-decoration: none;
+    color: #474747;
+}
